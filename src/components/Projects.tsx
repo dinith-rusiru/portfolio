@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { FolderGit2, ExternalLink, Github, Sparkles, CheckCircle2, ChevronRight, Layers } from "lucide-react";
+import { FolderGit2, ExternalLink, Sparkles, CheckCircle2, ChevronRight, Layers } from "lucide-react";
 import { PROJECTS, Project } from "@/data/portfolioData";
 
 export default function Projects() {
@@ -79,7 +79,7 @@ export default function Projects() {
                     className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/40 transition-colors"
                     title="View GitHub Repository"
                   >
-                    <Github className="w-5 h-5" />
+                  <ExternalLink className="w-5 h-5" />
                   </a>
                 </div>
 

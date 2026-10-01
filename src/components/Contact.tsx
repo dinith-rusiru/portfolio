@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Sparkles, CheckCircle2 } from "lucide-react";
+import { Mail, Phone, MapPin, Send, ExternalLink, Sparkles, CheckCircle2 } from "lucide-react";
 import confetti from "canvas-confetti";
 import { PERSONAL_INFO } from "@/data/portfolioData";
 
@@ -112,7 +112,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-slate-950 border border-slate-800 text-slate-300 hover:text-white hover:border-slate-700 font-medium text-xs transition-colors"
                   >
-                    <Github className="w-4 h-4" />
+                  <ExternalLink className="w-4 h-4" />
                     <span>GitHub</span>
                   </a>
                   <a
@@ -121,7 +121,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-slate-950 border border-slate-800 text-slate-300 hover:text-cyan-400 hover:border-cyan-500/40 font-medium text-xs transition-colors"
                   >
-                    <Linkedin className="w-4 h-4" />
+                  <ExternalLink className="w-4 h-4" />
                     <span>LinkedIn</span>
                   </a>
                 </div>

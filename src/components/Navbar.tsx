@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, Menu, X, Code2, Sparkles } from "lucide-react";
+import { Mail, Menu, X, Code2, Sparkles, ExternalLink } from "lucide-react";
 import { PERSONAL_INFO } from "@/data/portfolioData";
 
 const NAV_LINKS = [
@@ -77,7 +77,7 @@ export default function Navbar() {
             className="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
             title="GitHub Profile"
           >
-            <Github className="w-5 h-5" />
+              <ExternalLink className="w-5 h-5" />
           </a>
           <a
             href={PERSONAL_INFO.linkedin}
@@ -86,7 +86,7 @@ export default function Navbar() {
             className="p-2 text-slate-400 hover:text-cyan-400 hover:bg-slate-800 rounded-lg transition-colors"
             title="LinkedIn Profile"
           >
-            <Linkedin className="w-5 h-5" />
+              <ExternalLink className="w-5 h-5" />
           </a>
           <a
             href="#contact"
@@ -126,7 +126,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="p-2 text-slate-300 hover:text-white"
             >
-              <Github className="w-6 h-6" />
+                <ExternalLink className="w-6 h-6" />
             </a>
             <a
               href={PERSONAL_INFO.linkedin}
@@ -134,7 +134,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="p-2 text-slate-300 hover:text-cyan-400"
             >
-              <Linkedin className="w-6 h-6" />
+                <ExternalLink className="w-6 h-6" />
             </a>
             <a
               href={`mailto:${PERSONAL_INFO.email}`}
