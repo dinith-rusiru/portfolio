@@ -1,0 +1,117 @@
+0 verbose cli D:\programs\nodejs\node.exe D:\programs\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:D:\programs\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npmrc
+5 silly config load:file:C:\Users\HP\.npmrc
+6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--strict-ssl" "false" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_44_479Z-
+10 verbose logfile C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_44_479Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @react-three/drei@^10.0.4
+15 silly packumentCache full:https://registry.npmjs.org/@react-three%2fdrei cache-miss
+16 http fetch GET 403 https://registry.npmjs.org/@react-three%2fdrei 395ms (cache skip)
+17 silly fetch manifest @react-three/fiber@^9.1.0
+18 silly packumentCache full:https://registry.npmjs.org/@react-three%2ffiber cache-miss
+19 http fetch GET 403 https://registry.npmjs.org/@react-three%2ffiber 113ms (cache skip)
+20 silly fetch manifest canvas-confetti@^1.9.4
+21 silly packumentCache full:https://registry.npmjs.org/canvas-confetti cache-miss
+22 http fetch GET 403 https://registry.npmjs.org/canvas-confetti 93ms (cache skip)
+23 silly fetch manifest framer-motion@^12.4.10
+24 silly packumentCache full:https://registry.npmjs.org/framer-motion cache-miss
+25 http fetch GET 403 https://registry.npmjs.org/framer-motion 105ms (cache skip)
+26 silly fetch manifest lucide-react@^1.16.0
+27 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+28 http fetch GET 403 https://registry.npmjs.org/lucide-react 210ms (cache skip)
+29 silly fetch manifest next@16.3.7
+30 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+31 http fetch GET 403 https://registry.npmjs.org/next 345ms (cache skip)
+32 silly fetch manifest react@19.2.8
+33 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+34 http fetch GET 403 https://registry.npmjs.org/react 321ms (cache skip)
+35 silly fetch manifest react-dom@19.2.8
+36 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+37 http fetch GET 403 https://registry.npmjs.org/react-dom 190ms (cache skip)
+38 silly fetch manifest three@^0.174.0
+39 silly packumentCache full:https://registry.npmjs.org/three cache-miss
+40 http fetch GET 403 https://registry.npmjs.org/three 237ms (cache skip)
+41 silly fetch manifest @tailwindcss/postcss@^4
+42 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+43 http fetch GET 403 https://registry.npmjs.org/@tailwindcss%2fpostcss 276ms (cache skip)
+44 silly fetch manifest @types/canvas-confetti@^1.9.0
+45 silly packumentCache full:https://registry.npmjs.org/@types%2fcanvas-confetti cache-miss
+46 http fetch GET 403 https://registry.npmjs.org/@types%2fcanvas-confetti 159ms (cache skip)
+47 silly fetch manifest @types/node@^20
+48 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+49 http fetch GET 403 https://registry.npmjs.org/@types%2fnode 41ms (cache skip)
+50 silly fetch manifest @types/react@^19
+51 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+52 http fetch GET 403 https://registry.npmjs.org/@types%2freact 25ms (cache skip)
+53 silly fetch manifest @types/react-dom@^19
+54 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+55 http fetch GET 403 https://registry.npmjs.org/@types%2freact-dom 35ms (cache skip)
+56 silly fetch manifest @types/three@^0.174.0
+57 silly packumentCache full:https://registry.npmjs.org/@types%2fthree cache-miss
+58 http fetch GET 403 https://registry.npmjs.org/@types%2fthree 32ms (cache skip)
+59 silly fetch manifest eslint@^9
+60 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+61 http fetch GET 403 https://registry.npmjs.org/eslint 25ms (cache skip)
+62 silly fetch manifest eslint-config-next@16.3.7
+63 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+64 http fetch GET 403 https://registry.npmjs.org/eslint-config-next 49ms (cache skip)
+65 silly fetch manifest tailwindcss@^4
+66 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+67 http fetch GET 403 https://registry.npmjs.org/tailwindcss 28ms (cache skip)
+68 silly fetch manifest typescript@^5
+69 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+70 http fetch GET 403 https://registry.npmjs.org/typescript 46ms (cache skip)
+71 silly placeDep ROOT @react-three/drei@ OK for: portfolio@0.1.0 want: ^10.0.4
+72 silly placeDep ROOT @react-three/fiber@ OK for: portfolio@0.1.0 want: ^9.1.0
+73 silly placeDep ROOT @tailwindcss/postcss@ OK for: portfolio@0.1.0 want: ^4
+74 silly placeDep ROOT @types/canvas-confetti@ OK for: portfolio@0.1.0 want: ^1.9.0
+75 silly placeDep ROOT @types/node@ OK for: portfolio@0.1.0 want: ^20
+76 silly placeDep ROOT @types/react@ OK for: portfolio@0.1.0 want: ^19
+77 silly placeDep ROOT @types/react-dom@ OK for: portfolio@0.1.0 want: ^19
+78 silly placeDep ROOT @types/three@ OK for: portfolio@0.1.0 want: ^0.174.0
+79 silly placeDep ROOT canvas-confetti@ OK for: portfolio@0.1.0 want: ^1.9.4
+80 silly placeDep ROOT eslint@ OK for: portfolio@0.1.0 want: ^9
+81 silly placeDep ROOT eslint-config-next@ OK for: portfolio@0.1.0 want: 16.3.7
+82 silly placeDep ROOT framer-motion@ OK for: portfolio@0.1.0 want: ^12.4.10
+83 silly placeDep ROOT lucide-react@ OK for: portfolio@0.1.0 want: ^1.16.0
+84 silly placeDep ROOT next@ OK for: portfolio@0.1.0 want: 16.3.7
+85 silly placeDep ROOT react@ OK for: portfolio@0.1.0 want: 19.2.8
+86 silly placeDep ROOT react-dom@ OK for: portfolio@0.1.0 want: 19.2.8
+87 silly placeDep ROOT tailwindcss@ OK for: portfolio@0.1.0 want: ^4
+88 silly placeDep ROOT three@ OK for: portfolio@0.1.0 want: ^0.174.0
+89 silly placeDep ROOT typescript@ OK for: portfolio@0.1.0 want: ^5
+90 verbose stack HttpErrorGeneral: 403 Forbidden - GET https://registry.npmjs.org/@react-three%2fdrei
+90 verbose stack     at D:\programs\nodejs\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:95:15
+90 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+90 verbose stack     at async RegistryFetcher.packument (D:\programs\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+90 verbose stack     at async RegistryFetcher.manifest (D:\programs\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+90 verbose stack     at async #fetchManifest (D:\programs\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1199:20)
+90 verbose stack     at async #nodeFromEdge (D:\programs\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1037:19)
+90 verbose stack     at async #buildDepStep (D:\programs\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:901:11)
+90 verbose stack     at async Arborist.buildIdealTree (D:\programs\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+90 verbose stack     at async Promise.all (index 1)
+90 verbose stack     at async Arborist.reify (D:\programs\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+91 verbose statusCode 403
+92 verbose pkgid @react-three/drei@^10.0.4
+93 error code E403
+94 error 403 403 Forbidden - GET https://registry.npmjs.org/@react-three%2fdrei
+95 error 403 In most cases, you or one of your dependencies are requesting
+95 error 403 a package version that is forbidden by your security policy, or
+95 error 403 on a server you do not have access to.
+96 silly unfinished npm timer reify 1790857544944
+97 silly unfinished npm timer reify:loadTrees 1790857544947
+98 verbose cwd C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio
+99 verbose os Windows_NT 10.0.26200
+100 verbose node v20.20.0
+101 verbose npm  v10.8.2
+102 verbose exit 1
+103 verbose code 1
+104 error A complete log of this run can be found in: C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_44_479Z-debug-0.log

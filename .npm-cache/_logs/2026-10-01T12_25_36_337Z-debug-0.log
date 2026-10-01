@@ -1,0 +1,33 @@
+0 verbose cli D:\programs\nodejs\node.exe D:\programs\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:D:\programs\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npmrc
+5 silly config load:file:C:\Users\HP\.npmrc
+6 silly config load:file:C:\Users\HP\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm ping
+8 verbose argv "ping" "--fetch-timeout" "10000" "--fetch-retries" "0" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_36_337Z-
+10 verbose logfile C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_36_337Z-debug-0.log
+11 notice PING https://registry.npmjs.org/
+12 silly logfile done cleaning log files
+13 http fetch GET https://registry.npmjs.org/-/ping?write=true attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+14 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with UNABLE_TO_VERIFY_LEAF_SIGNATURE
+15 verbose type system
+16 verbose stack FetchError: request to https://registry.npmjs.org/-/ping?write=true failed, reason: unable to verify the first certificate
+16 verbose stack     at ClientRequest.<anonymous> (D:\programs\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+16 verbose stack     at ClientRequest.emit (node:events:524:28)
+16 verbose stack     at emitErrorEvent (node:_http_client:101:11)
+16 verbose stack     at _destroy (node:_http_client:884:9)
+16 verbose stack     at onSocketNT (node:_http_client:904:5)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+17 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+18 error errno UNABLE_TO_VERIFY_LEAF_SIGNATURE
+19 error request to https://registry.npmjs.org/-/ping?write=true failed, reason: unable to verify the first certificate
+20 verbose cwd C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio
+21 verbose os Windows_NT 10.0.26200
+22 verbose node v20.20.0
+23 verbose npm  v10.8.2
+24 verbose exit 1
+25 verbose code 1
+26 error A complete log of this run can be found in: C:\Users\HP\Desktop\New folder (2)\portfolio\portfolio\.npm-cache\_logs\2026-10-01T12_25_36_337Z-debug-0.log
