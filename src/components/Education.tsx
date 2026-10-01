@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { GraduationalCap, GraduationCap, Calendar, Award, BookOpen } from "lucide-react";
+import { GraduationCap, Calendar, Award, BookOpen } from "lucide-react";
 import { EDUCATION_LIST } from "@/data/portfolioData";
 
 export default function Education() {
